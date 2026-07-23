@@ -1,0 +1,16 @@
+--- tol=1e-2 ---
+  1.8.0/def : sklearn 1.8.0 OMP=def tol=1e-02 -> acc=0.265253 mean_n_iter=18
+  1.9.0/def : sklearn 1.9.0 OMP=def tol=1e-02 -> acc=0.265253 mean_n_iter=18
+  1.9.0/1th : sklearn 1.9.0 OMP=1 tol=1e-02 -> acc=0.265253 mean_n_iter=18
+--- tol=1e-4 ---
+  1.8.0/def : sklearn 1.8.0 OMP=def tol=1e-04 -> acc=0.426774 mean_n_iter=191
+  1.9.0/def : sklearn 1.9.0 OMP=def tol=1e-04 -> acc=0.425248 mean_n_iter=192
+  1.9.0/1th : sklearn 1.9.0 OMP=1 tol=1e-04 -> acc=0.426774 mean_n_iter=189
+--- tol=1e-6 ---
+  1.8.0/def : sklearn 1.8.0 OMP=def tol=1e-06 -> acc=0.425820 mean_n_iter=515
+  1.9.0/def : sklearn 1.9.0 OMP=def tol=1e-06 -> acc=0.426011 mean_n_iter=326
+  1.9.0/1th : sklearn 1.9.0 OMP=1 tol=1e-06 -> acc=0.425248 mean_n_iter=329
+--- tol=1e-8 ---
+  1.8.0/def : sklearn 1.8.0 OMP=def tol=1e-08 -> acc=0.426011 mean_n_iter=818
+  1.9.0/def : sklearn 1.9.0 OMP=def tol=1e-08 -> acc=0.426011 mean_n_iter=326
+  1.9.0/1th : sklearn 1.9.0 OMP=1 tol=1e-08 -> acc=0.425248 mean_n_iter=329

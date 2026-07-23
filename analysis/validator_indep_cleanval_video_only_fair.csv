@@ -1,0 +1,3 @@
+model,ckpt,precision,n,correct,val_acc,best_val_acc_ref,delta,val_sha
+v_fair,video_only_fair.pt,bf16,5244,4539,0.865561,0.865561,+0.000000,03c5a87acdcf07add81937906636be99cbbb04779c9fd497a2dce5a6c4565533
+v_fair,video_only_fair.pt,fp32,5244,4536,0.864989,0.865561,-0.000572,03c5a87acdcf07add81937906636be99cbbb04779c9fd497a2dce5a6c4565533

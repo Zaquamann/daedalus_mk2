@@ -1,0 +1,159 @@
+section,feature_or_bin,target_or_metric,value,ci_lo,ci_hi,n,note
+rf_persample_baseline,viseme_bilabial_bpm,delta_flip,0.042348,,,,
+rf_persample_baseline,viseme_glottal_h,delta_flip,0.023574,,,,
+rf_persample_baseline,viseme_labiodental_fv,delta_flip,0.033613,,,,
+rf_persample_baseline,viseme_labiovelar_w,delta_flip,0.022680,,,,
+rf_persample_baseline,viseme_lingual,delta_flip,0.061253,,,,
+rf_persample_baseline,viseme_other,delta_flip,0.037133,,,,
+rf_persample_baseline,viseme_vowel_initial,delta_flip,0.020960,,,,
+rf_persample_baseline,word_len,delta_flip,0.507734,,,,
+rf_persample_baseline,n_vowels,delta_flip,0.231139,,,,
+rf_persample_baseline,vowel_initial,delta_flip,0.019566,,,,
+rf_persample_baseline,viseme_bilabial_bpm,delta_logconf,0.055619,,,,
+rf_persample_baseline,viseme_glottal_h,delta_logconf,0.019659,,,,
+rf_persample_baseline,viseme_labiodental_fv,delta_logconf,0.032879,,,,
+rf_persample_baseline,viseme_labiovelar_w,delta_logconf,0.028296,,,,
+rf_persample_baseline,viseme_lingual,delta_logconf,0.122940,,,,
+rf_persample_baseline,viseme_other,delta_logconf,0.057532,,,,
+rf_persample_baseline,viseme_vowel_initial,delta_logconf,0.026508,,,,
+rf_persample_baseline,word_len,delta_logconf,0.415869,,,,
+rf_persample_baseline,n_vowels,delta_logconf,0.219113,,,,
+rf_persample_baseline,vowel_initial,delta_logconf,0.021585,,,,
+rf_persample_baseline,viseme_bilabial_bpm,delta_margin,0.041958,,,,
+rf_persample_baseline,viseme_glottal_h,delta_margin,0.032782,,,,
+rf_persample_baseline,viseme_labiodental_fv,delta_margin,0.034278,,,,
+rf_persample_baseline,viseme_labiovelar_w,delta_margin,0.012970,,,,
+rf_persample_baseline,viseme_lingual,delta_margin,0.236698,,,,
+rf_persample_baseline,viseme_other,delta_margin,0.053183,,,,
+rf_persample_baseline,viseme_vowel_initial,delta_margin,0.035793,,,,
+rf_persample_baseline,word_len,delta_margin,0.324457,,,,
+rf_persample_baseline,n_vowels,delta_margin,0.202030,,,,
+rf_persample_baseline,vowel_initial,delta_margin,0.025851,,,,
+rf_persample_with_Abase,viseme_bilabial_bpm,delta_flip,0.004423,,,,
+rf_persample_with_Abase,viseme_glottal_h,delta_flip,0.002338,,,,
+rf_persample_with_Abase,viseme_labiodental_fv,delta_flip,0.004394,,,,
+rf_persample_with_Abase,viseme_labiovelar_w,delta_flip,0.001749,,,,
+rf_persample_with_Abase,viseme_lingual,delta_flip,0.009981,,,,
+rf_persample_with_Abase,viseme_other,delta_flip,0.003812,,,,
+rf_persample_with_Abase,viseme_vowel_initial,delta_flip,0.002520,,,,
+rf_persample_with_Abase,word_len,delta_flip,0.048851,,,,
+rf_persample_with_Abase,n_vowels,delta_flip,0.025223,,,,
+rf_persample_with_Abase,vowel_initial,delta_flip,0.002959,,,,
+rf_persample_with_Abase,A_correct,delta_flip,0.296220,,,,
+rf_persample_with_Abase,A_logp,delta_flip,0.597530,,,,
+rf_persample_with_Abase,viseme_bilabial_bpm,delta_logconf,0.013499,,,,
+rf_persample_with_Abase,viseme_glottal_h,delta_logconf,0.005622,,,,
+rf_persample_with_Abase,viseme_labiodental_fv,delta_logconf,0.004192,,,,
+rf_persample_with_Abase,viseme_labiovelar_w,delta_logconf,0.001099,,,,
+rf_persample_with_Abase,viseme_lingual,delta_logconf,0.023145,,,,
+rf_persample_with_Abase,viseme_other,delta_logconf,0.007572,,,,
+rf_persample_with_Abase,viseme_vowel_initial,delta_logconf,0.004916,,,,
+rf_persample_with_Abase,word_len,delta_logconf,0.077866,,,,
+rf_persample_with_Abase,n_vowels,delta_logconf,0.031644,,,,
+rf_persample_with_Abase,vowel_initial,delta_logconf,0.004190,,,,
+rf_persample_with_Abase,A_correct,delta_logconf,0.014437,,,,
+rf_persample_with_Abase,A_logp,delta_logconf,0.811817,,,,
+rf_persample_with_Abase,viseme_bilabial_bpm,delta_margin,0.019496,,,,
+rf_persample_with_Abase,viseme_glottal_h,delta_margin,0.008358,,,,
+rf_persample_with_Abase,viseme_labiodental_fv,delta_margin,0.015129,,,,
+rf_persample_with_Abase,viseme_labiovelar_w,delta_margin,0.005869,,,,
+rf_persample_with_Abase,viseme_lingual,delta_margin,0.046594,,,,
+rf_persample_with_Abase,viseme_other,delta_margin,0.012590,,,,
+rf_persample_with_Abase,viseme_vowel_initial,delta_margin,0.011366,,,,
+rf_persample_with_Abase,word_len,delta_margin,0.103228,,,,
+rf_persample_with_Abase,n_vowels,delta_margin,0.060032,,,,
+rf_persample_with_Abase,vowel_initial,delta_margin,0.011015,,,,
+rf_persample_with_Abase,A_correct,delta_margin,0.003127,,,,
+rf_persample_with_Abase,A_logp,delta_margin,0.703198,,,,
+perm_persample_with_Abase,viseme_bilabial_bpm,delta_flip,-0.002062,0.000953,,,permutation_importance test-fold
+perm_persample_with_Abase,viseme_glottal_h,delta_flip,-0.000758,0.000883,,,permutation_importance test-fold
+perm_persample_with_Abase,viseme_labiodental_fv,delta_flip,-0.001063,0.001005,,,permutation_importance test-fold
+perm_persample_with_Abase,viseme_labiovelar_w,delta_flip,-0.000115,0.000154,,,permutation_importance test-fold
+perm_persample_with_Abase,viseme_lingual,delta_flip,-0.004149,0.002860,,,permutation_importance test-fold
+perm_persample_with_Abase,viseme_other,delta_flip,-0.001005,0.001256,,,permutation_importance test-fold
+perm_persample_with_Abase,viseme_vowel_initial,delta_flip,-0.002196,0.001413,,,permutation_importance test-fold
+perm_persample_with_Abase,word_len,delta_flip,-0.005396,0.002469,,,permutation_importance test-fold
+perm_persample_with_Abase,n_vowels,delta_flip,-0.004120,0.001822,,,permutation_importance test-fold
+perm_persample_with_Abase,vowel_initial,delta_flip,-0.002709,0.001558,,,permutation_importance test-fold
+perm_persample_with_Abase,A_correct,delta_flip,0.069323,0.012555,,,permutation_importance test-fold
+perm_persample_with_Abase,A_logp,delta_flip,0.018844,0.008531,,,permutation_importance test-fold
+perm_persample_with_Abase,viseme_bilabial_bpm,delta_logconf,0.000797,0.009176,,,permutation_importance test-fold
+perm_persample_with_Abase,viseme_glottal_h,delta_logconf,0.004165,0.003259,,,permutation_importance test-fold
+perm_persample_with_Abase,viseme_labiodental_fv,delta_logconf,0.000299,0.002148,,,permutation_importance test-fold
+perm_persample_with_Abase,viseme_labiovelar_w,delta_logconf,-0.000458,0.001381,,,permutation_importance test-fold
+perm_persample_with_Abase,viseme_lingual,delta_logconf,0.025521,0.024584,,,permutation_importance test-fold
+perm_persample_with_Abase,viseme_other,delta_logconf,-0.002016,0.007362,,,permutation_importance test-fold
+perm_persample_with_Abase,viseme_vowel_initial,delta_logconf,-0.002492,0.003364,,,permutation_importance test-fold
+perm_persample_with_Abase,word_len,delta_logconf,0.034169,0.057857,,,permutation_importance test-fold
+perm_persample_with_Abase,n_vowels,delta_logconf,0.007878,0.018565,,,permutation_importance test-fold
+perm_persample_with_Abase,vowel_initial,delta_logconf,-0.003082,0.002580,,,permutation_importance test-fold
+perm_persample_with_Abase,A_correct,delta_logconf,0.009863,0.025880,,,permutation_importance test-fold
+perm_persample_with_Abase,A_logp,delta_logconf,0.580368,0.163322,,,permutation_importance test-fold
+perm_persample_with_Abase,viseme_bilabial_bpm,delta_margin,-0.012705,0.008542,,,permutation_importance test-fold
+perm_persample_with_Abase,viseme_glottal_h,delta_margin,0.001378,0.005428,,,permutation_importance test-fold
+perm_persample_with_Abase,viseme_labiodental_fv,delta_margin,-0.001595,0.005935,,,permutation_importance test-fold
+perm_persample_with_Abase,viseme_labiovelar_w,delta_margin,-0.000185,0.001170,,,permutation_importance test-fold
+perm_persample_with_Abase,viseme_lingual,delta_margin,-0.002026,0.019860,,,permutation_importance test-fold
+perm_persample_with_Abase,viseme_other,delta_margin,-0.004890,0.005034,,,permutation_importance test-fold
+perm_persample_with_Abase,viseme_vowel_initial,delta_margin,-0.015992,0.005503,,,permutation_importance test-fold
+perm_persample_with_Abase,word_len,delta_margin,-0.010009,0.018536,,,permutation_importance test-fold
+perm_persample_with_Abase,n_vowels,delta_margin,0.008964,0.018629,,,permutation_importance test-fold
+perm_persample_with_Abase,vowel_initial,delta_margin,-0.013903,0.006835,,,permutation_importance test-fold
+perm_persample_with_Abase,A_correct,delta_margin,0.002002,0.004071,,,permutation_importance test-fold
+perm_persample_with_Abase,A_logp,delta_margin,0.180698,0.052085,,,permutation_importance test-fold
+perword_ridge_no_Abase,word_len,rescue,0.188265,,,,std beta
+perword_ridge_no_Abase,n_vowels,rescue,-0.187485,,,,std beta
+perword_ridge_no_Abase,vowel_initial,rescue,0.175317,,,,std beta
+perword_ridge_no_Abase,viseme_bilabial_bpm,rescue,0.046910,,,,std beta
+perword_ridge_no_Abase,viseme_glottal_h,rescue,-0.006777,,,,std beta
+perword_ridge_no_Abase,viseme_labiodental_fv,rescue,-0.004863,,,,std beta
+perword_ridge_no_Abase,viseme_labiovelar_w,rescue,0.016227,,,,std beta
+perword_ridge_no_Abase,viseme_lingual,rescue,0.001177,,,,std beta
+perword_ridge_no_Abase,viseme_other,rescue,0.096221,,,,std beta
+perword_ridge_no_Abase,viseme_vowel_initial,rescue,-0.119899,,,,std beta
+perword_ridge_with_Abase,A_baseline,rescue,-0.681227,,,,std beta
+perword_ridge_with_Abase,word_len,rescue,0.259026,,,,std beta
+perword_ridge_with_Abase,n_vowels,rescue,-0.188682,,,,std beta
+perword_ridge_with_Abase,vowel_initial,rescue,0.207722,,,,std beta
+perword_ridge_with_Abase,viseme_bilabial_bpm,rescue,0.087280,,,,std beta
+perword_ridge_with_Abase,viseme_glottal_h,rescue,0.038972,,,,std beta
+perword_ridge_with_Abase,viseme_labiodental_fv,rescue,-0.007812,,,,std beta
+perword_ridge_with_Abase,viseme_labiovelar_w,rescue,0.042131,,,,std beta
+perword_ridge_with_Abase,viseme_lingual,rescue,-0.040612,,,,std beta
+perword_ridge_with_Abase,viseme_other,rescue,0.085447,,,,std beta
+perword_ridge_with_Abase,viseme_vowel_initial,rescue,-0.130522,,,,std beta
+bin_ci_onset,/b/,delta_AV_minus_A,0.043478,-0.008696,0.095652,115,A=0.9217 AV=0.9652 excl0=no
+bin_ci_onset,/d/,delta_AV_minus_A,0.021661,-0.007220,0.054152,277,A=0.9350 AV=0.9567 excl0=no
+bin_ci_onset,/f/,delta_AV_minus_A,0.030928,0.008247,0.053608,485,A=0.9320 AV=0.9629 excl0=yes
+bin_ci_onset,/h/,delta_AV_minus_A,0.024845,-0.006211,0.062112,161,A=0.9565 AV=0.9814 excl0=no
+bin_ci_onset,/k/,delta_AV_minus_A,0.008152,-0.013587,0.032609,368,A=0.9565 AV=0.9647 excl0=no
+bin_ci_onset,/m/,delta_AV_minus_A,0.016722,-0.003344,0.040134,299,A=0.9632 AV=0.9799 excl0=no
+bin_ci_onset,/n/,delta_AV_minus_A,0.018634,-0.043478,0.080745,161,A=0.8323 AV=0.8509 excl0=no
+bin_ci_onset,/p/,delta_AV_minus_A,0.038567,0.011019,0.068871,363,A=0.9311 AV=0.9697 excl0=yes
+bin_ci_onset,/r/,delta_AV_minus_A,0.049689,0.018634,0.086957,161,A=0.9317 AV=0.9814 excl0=yes
+bin_ci_onset,/s/,delta_AV_minus_A,0.029412,0.012605,0.046218,714,A=0.9286 AV=0.9580 excl0=yes
+bin_ci_onset,/t/,delta_AV_minus_A,0.030905,0.012141,0.050773,906,A=0.9007 AV=0.9316 excl0=yes
+bin_ci_onset,/w/,delta_AV_minus_A,0.043243,0.010811,0.075676,185,A=0.9459 AV=0.9892 excl0=yes
+bin_ci_onset,other,delta_AV_minus_A,0.044586,0.015924,0.076433,314,A=0.9204 AV=0.9650 excl0=yes
+bin_ci_onset,vowel,delta_AV_minus_A,0.029932,0.010884,0.048980,735,A=0.9320 AV=0.9619 excl0=yes
+bin_ci_viseme,bilabial_bpm,delta_AV_minus_A,0.030888,0.012870,0.048906,777,A=0.9421 AV=0.9730 excl0=yes
+bin_ci_viseme,glottal_h,delta_AV_minus_A,0.024845,-0.006211,0.062112,161,A=0.9565 AV=0.9814 excl0=no
+bin_ci_viseme,labiodental_fv,delta_AV_minus_A,0.030928,0.008247,0.053608,485,A=0.9320 AV=0.9629 excl0=yes
+bin_ci_viseme,labiovelar_w,delta_AV_minus_A,0.043243,0.010811,0.081081,185,A=0.9459 AV=0.9892 excl0=yes
+bin_ci_viseme,lingual,delta_AV_minus_A,0.026672,0.016622,0.037109,2587,A=0.9177 AV=0.9443 excl0=yes
+bin_ci_viseme,other,delta_AV_minus_A,0.044586,0.015924,0.076433,314,A=0.9204 AV=0.9650 excl0=yes
+bin_ci_viseme,vowel_initial,delta_AV_minus_A,0.029932,0.010884,0.049014,735,A=0.9320 AV=0.9619 excl0=yes
+bin_ci_syllable,1,delta_AV_minus_A,0.026984,0.016270,0.037698,2520,A=0.9198 AV=0.9468 excl0=yes
+bin_ci_syllable,2,delta_AV_minus_A,0.035569,0.023882,0.047256,1968,A=0.9263 AV=0.9619 excl0=yes
+bin_ci_syllable,3,delta_AV_minus_A,0.026521,0.009360,0.045242,641,A=0.9454 AV=0.9719 excl0=yes
+bin_ci_syllable,4+,delta_AV_minus_A,0.008696,0.000000,0.026087,115,A=0.9913 AV=1.0000 excl0=no
+bin_ci_length,Long (8+),delta_AV_minus_A,0.023810,0.006614,0.041005,756,A=0.9365 AV=0.9603 excl0=yes
+bin_ci_length,Medium (5-7),delta_AV_minus_A,0.036201,0.026405,0.046422,2348,A=0.9344 AV=0.9706 excl0=yes
+bin_ci_length,Short (<=4),delta_AV_minus_A,0.024766,0.013084,0.036916,2140,A=0.9154 AV=0.9402 excl0=yes
+bin_ci_vowel,/aɪ/,delta_AV_minus_A,0.030686,0.007220,0.055957,554,A=0.9025 AV=0.9332 excl0=yes
+bin_ci_vowel,/eɪ/,delta_AV_minus_A,0.018307,-0.006865,0.045767,437,A=0.9336 AV=0.9519 excl0=no
+bin_ci_vowel,/iː/,delta_AV_minus_A,0.027100,-0.002710,0.056911,369,A=0.9051 AV=0.9322 excl0=no
+bin_ci_vowel,/æ/,delta_AV_minus_A,0.013283,-0.007590,0.036053,527,A=0.9431 AV=0.9564 excl0=no
+bin_ci_vowel,/ɔː/,delta_AV_minus_A,0.038835,0.012136,0.065534,412,A=0.9248 AV=0.9636 excl0=yes
+bin_ci_vowel,/ʌ/,delta_AV_minus_A,0.036145,0.012048,0.060241,415,A=0.9301 AV=0.9663 excl0=yes
+bin_ci_vowel,other,delta_AV_minus_A,0.032806,0.023320,0.042688,2530,A=0.9308 AV=0.9636 excl0=yes

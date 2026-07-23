@@ -1,0 +1,16 @@
+condition,layer,acc_5fold,bal_acc_5fold,published_anchor,delta_vs_anchor_pp,note
+A_only,block1_gap,0.424676,0.357341,0.426774,-0.2098,
+A_only,block2_gap,0.898741,0.894911,0.902745,-0.4004,
+A_only,penult,0.898741,0.894911,0.902745,-0.4004,
+AV_clean_full,a_mid_gap,0.279367,0.197571,0.279558,-0.0191,
+AV_clean_full,gate_out_gap,0.760678,0.734450,0.759915,0.0763,
+AV_clean_full,block2_gap,0.943744,0.943340,0.943173,0.0571,
+AV_clean_full,penult,0.943744,0.943340,0.945271,-0.1527,
+AV_clean_v_zero,a_mid_gap,0.279367,0.197571,,,a_mid identical to full-AV (video-independent)
+AV_clean_v_zero,gate_out_gap,0.346491,0.272236,,,audio-only (v_mid=0) — NEW per-layer measurement
+AV_clean_v_zero,block2_gap,0.512209,0.462940,,,audio-only (v_mid=0) — NEW per-layer measurement
+AV_clean_v_zero,penult,0.512209,0.462940,0.526320,-1.4111,audio-only (v_mid=0) — NEW per-layer measurement
+cliff_full_minus_vzero,a_mid_gap,0.000000,,,,full-AV word-decodability lost when v_mid=0
+cliff_full_minus_vzero,gate_out_gap,0.414187,,,,full-AV word-decodability lost when v_mid=0
+cliff_full_minus_vzero,block2_gap,0.431535,,,,full-AV word-decodability lost when v_mid=0
+cliff_full_minus_vzero,penult,0.431535,,,,full-AV word-decodability lost when v_mid=0

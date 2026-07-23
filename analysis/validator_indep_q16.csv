@@ -1,0 +1,20 @@
+section,readout,model,metric,value,report,delta_vs_report
+decodability,word,A_only_block1,acc_5fold,0.425439,0.424676,+0.180%
+decodability,word,A_only_block1,bal_acc_5fold,0.358236,0.357341,+0.250%
+decodability,word,AV_a_mid_vzero,acc_5fold,0.278604,0.279367,-0.273%
+decodability,word,AV_a_mid_vzero,bal_acc_5fold,0.196834,0.197571,-0.373%
+decodability,word,block1_minus_a_mid,acc_gap_pp,14.6835,14.5309,+1.526e-01(abs)  ** FLAG
+decodability,onset,A_only_block1,acc_5fold,0.552563,0.552801,-0.043%
+decodability,onset,A_only_block1,bal_acc_5fold,0.451754,0.452036,-0.062%
+decodability,onset,AV_a_mid_vzero,acc_5fold,0.456019,0.455304,+0.157%
+decodability,onset,AV_a_mid_vzero,bal_acc_5fold,0.329856,0.329097,+0.231%
+decodability,onset,block1_minus_a_mid,acc_gap_pp,9.6544,9.7497,-9.535e-02(abs)  ** FLAG
+decodability,viseme,A_only_block1,acc_5fold,0.632049,0.631440,+0.096%
+decodability,viseme,A_only_block1,bal_acc_5fold,0.454866,0.454231,+0.140%
+decodability,viseme,AV_a_mid_vzero,acc_5fold,0.569777,0.570183,-0.071%
+decodability,viseme,AV_a_mid_vzero,bal_acc_5fold,0.307318,0.307447,-0.042%
+decodability,viseme,block1_minus_a_mid,acc_gap_pp,6.2272,6.1258,+1.014e-01(abs)  ** FLAG
+geometry,a_mid_vs_block1,A_x_AV,linear_CKA,0.976481,0.976481,-1.631e-07(abs)
+identical_audio,a_mid,AV_vzero_vs_full,max_abs_diff,0.000e+00,0.000e+00,OK
+identical_audio,a_mid,AV_vzero_vs_full,mean_abs_diff,0.000e+00,,
+selfcheck,model_acc,A/AV,accuracy,0.926964/0.956712,0.926964/0.956712,OK

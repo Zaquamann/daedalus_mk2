@@ -1,0 +1,12 @@
+model,layer,spearman_rho_onset_rdm,spearman_rho_viseme_rdm
+A_only,block1_gap,0.026372,-0.006074
+A_only,block2_gap,0.196933,0.096537
+A_only,penult,0.196933,0.096537
+V_fair,visual_gap,0.080525,0.116695
+V_fair,block2_gap,0.153656,0.177693
+V_fair,penult,0.153656,0.177693
+AV_full,a_mid_gap,0.003506,-0.013850
+AV_full,v_mid_gap,0.016354,0.007628
+AV_full,gate_out_gap,0.045947,0.019722
+AV_full,block2_gap,0.201639,0.151333
+AV_full,penult,0.201639,0.151333

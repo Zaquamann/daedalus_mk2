@@ -1,0 +1,4 @@
+per_length_accuracy_compare,n_samples,A_acc,AV_acc,delta
+Medium (5-7),2348,0.9344,0.9706,0.0362
+Short (<=4),2140,0.9154,0.9402,0.0248
+Long (8+),756,0.9365,0.9603,0.0238

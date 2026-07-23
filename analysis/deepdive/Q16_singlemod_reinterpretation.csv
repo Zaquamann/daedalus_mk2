@@ -1,0 +1,24 @@
+section,readout,model,metric,value,note,delta_pct_vs_anchor
+decodability,word,A_only_block1,acc_5fold,0.424676,,
+decodability,word,A_only_block1,bal_acc_5fold,0.357341,,
+decodability,word,AV_a_mid_vzero,acc_5fold,0.279367,video-zeroed AV audio branch,
+decodability,word,AV_a_mid_vzero,bal_acc_5fold,0.197571,,
+decodability,word,block1_minus_a_mid,acc_gap_pp,14.5309,A-only block1 more decodable on identical audio,
+decodability,onset,A_only_block1,acc_5fold,0.552801,,
+decodability,onset,A_only_block1,bal_acc_5fold,0.452036,,
+decodability,onset,AV_a_mid_vzero,acc_5fold,0.455304,video-zeroed AV audio branch,
+decodability,onset,AV_a_mid_vzero,bal_acc_5fold,0.329097,,
+decodability,onset,block1_minus_a_mid,acc_gap_pp,9.7497,A-only block1 more decodable on identical audio,
+decodability,viseme,A_only_block1,acc_5fold,0.631440,,
+decodability,viseme,A_only_block1,bal_acc_5fold,0.454231,,
+decodability,viseme,AV_a_mid_vzero,acc_5fold,0.570183,video-zeroed AV audio branch,
+decodability,viseme,AV_a_mid_vzero,bal_acc_5fold,0.307447,,
+decodability,viseme,block1_minus_a_mid,acc_gap_pp,6.1258,A-only block1 more decodable on identical audio,
+geometry,a_mid_vs_block1,A_x_AV,linear_CKA,0.976481,near-identical subspace despite the decodability gap,
+selfcheck,word/AV,reproduce_published,value,0.279367,anchor 0.279558 delta -0.019% tol 0.0005 [OK],-0.019%
+selfcheck,word/A,reproduce_published,value,0.424676,anchor 0.426774 delta -0.210% tol 0.005 [OK],-0.210%
+selfcheck,viseme/AV,reproduce_published,value,0.570183,anchor 0.569777 delta +0.041% tol 0.0005 [OK],+0.041%
+selfcheck,viseme/A,reproduce_published,value,0.631440,anchor 0.631643 delta -0.020% tol 0.0005 [OK],-0.020%
+selfcheck,cka,reproduce_published,value,0.976481,anchor 0.976481 delta -0.000% tol 0.0005 [OK],-0.000%
+identical_audio,a_mid,AV_vzero_vs_full,max_abs_diff,0.000e+00,a_mid identical with video zeroed => audio-only determined,
+identical_audio,a_mid,AV_vzero_vs_full,mean_abs_diff,0.000e+00,,

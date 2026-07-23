@@ -1,0 +1,2 @@
+mean_conf_A,mean_conf_V,mean_conf_AV,var_conf_A,var_conf_V,var_conf_AV_observed,var_conf_AV_optimal_pred,ratio_observed_over_optimal
+0.881919,0.583784,0.960954,0.029296,0.066917,0.010022,0.020376,0.491868

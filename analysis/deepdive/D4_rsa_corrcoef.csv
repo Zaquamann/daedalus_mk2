@@ -1,0 +1,4 @@
+pair,spearman_rho,n_unique_pairs
+AV_vs_A,0.786232,16110
+AV_vs_V,0.742174,16110
+A_vs_V,0.467092,16110

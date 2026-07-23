@@ -1,0 +1,11 @@
+ckpt=av_fused_latefusion.pt n=5244
+audio_acc=0.8812
+video_acc=0.8570
+actual_fused=0.9533
+union=0.9649
+convex_oracle=0.9844
+best_global_w_acc=0.9661 at w_a=0.625
+equal_sum=0.9621
+wa_mean=0.3710 wa_std=0.0747
+0.95-convex_oracle=-0.0344
+verdict=GATE-LIMITED: a perfect gate reaches 0.95 with these heads (actual<oracle = gate miscalibration)

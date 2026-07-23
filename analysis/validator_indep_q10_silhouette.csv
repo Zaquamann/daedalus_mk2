@@ -1,0 +1,5 @@
+model,grouping,silhouette_score,artifact,delta,sign
+A_clean,viseme,-0.017778,-0.017778,-0.000000,negative
+A_noisy,viseme,-0.016164,-0.016164,+0.000000,negative
+AV_clean,viseme,-0.007646,-0.007644,-0.000002,negative
+AV_noisy,viseme,-0.008762,-0.008755,-0.000007,negative

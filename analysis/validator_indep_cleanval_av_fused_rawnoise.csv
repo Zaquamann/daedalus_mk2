@@ -1,0 +1,3 @@
+model,ckpt,precision,n,correct,val_acc,best_val_acc_ref,delta,val_sha
+av,av_fused_rawnoise.pt,bf16,5244,5033,0.959764,0.959573,+0.000191,03c5a87acdcf07add81937906636be99cbbb04779c9fd497a2dce5a6c4565533
+av,av_fused_rawnoise.pt,fp32,5244,5026,0.958429,0.959573,-0.001144,03c5a87acdcf07add81937906636be99cbbb04779c9fd497a2dce5a6c4565533

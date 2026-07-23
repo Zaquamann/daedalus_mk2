@@ -1,0 +1,44 @@
+# Model artifacts
+processed/
+models/
+
+# Visual data (raw clips + memmap caches — never commit, too large)
+data/visual/cache/
+data/visual/video_data/
+data/visual/video_data.zip
+
+# IDE
+.idea/
+
+# Backups
+*.bak
+
+# Run logs + scratch completion markers
+*.log
+*.done
+logs/
+
+# Example-script outputs
+examples/output/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db

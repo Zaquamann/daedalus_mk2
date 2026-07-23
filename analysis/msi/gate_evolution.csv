@@ -1,0 +1,4 @@
+model,alpha_final,AV_full,audio_only_video_zero,video_only_audio_zero,both_zero
+AV_clean,5.2032,0.956712,0.008391,0.444699,0.004386
+AV_mel_noisy,5.2889,0.951754,0.031846,0.501716,0.004386
+AV_rawnoise,6.0277,0.958429,0.008391,0.507818,0.004386

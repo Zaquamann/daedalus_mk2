@@ -1,0 +1,5 @@
+model,grouping,silhouette_score
+A_clean,viseme,-0.017778
+A_noisy,viseme,-0.016164
+AV_clean,viseme,-0.007644
+AV_noisy,viseme,-0.008755

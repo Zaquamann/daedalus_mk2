@@ -1,0 +1,17 @@
+section,metric,value,count,note
+selfcheck,A_only_acc,0.926964,5244,anchor 0.926964
+selfcheck,AV_fused_acc,0.956712,5244,anchor 0.956712
+overlap,agreement_rate,0.918002,4814,A_pred == AV_pred (any label)
+overlap,disagreement_rate,0.081998,430,
+contingency,both_correct,0.906941,4756,
+contingency,both_wrong,0.023265,122,
+contingency,A_right_AV_wrong_regression,0.020023,105,AV loses what A had
+contingency,A_wrong_AV_right_rescue,0.049771,261,AV rescues what A missed
+contingency,shared_error_same_label,0.011060,58,agree on the SAME wrong word
+conditional,AV_acc_on_A_wrong_set,0.681462,383,rescue rate among A-errors = 261/383
+conditional,A_acc_on_AV_wrong_set,0.462555,227,A-right rate among AV-errors = 105/227
+disagree,frac_disagree_A_right,0.244186,105,"of disagreements, A is the correct one"
+disagree,frac_disagree_AV_right,0.606977,261,"of disagreements, AV is the correct one"
+disagree,frac_disagree_neither_right,0.148837,64,both wrong but different labels
+mcgurk_ref,E3_A_audio_capture_distinct,0.927300,1500,E3 conflict pairs (existing) — A follows audio
+mcgurk_ref,E3_AV_third_word_distinct,0.827300,1500,E3 conflict pairs (existing) — AV fuses to a third word

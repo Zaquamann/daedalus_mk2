@@ -1,0 +1,12 @@
+model,layer,acc_5fold,bal_acc_5fold
+A_only,block1_gap,0.426774,0.359377
+A_only,block2_gap,0.902745,0.899493
+A_only,penult,0.902745,0.899493
+V_fair,visual_gap,0.659230,0.619921
+V_fair,block2_gap,0.821509,0.807381
+V_fair,penult,0.821509,0.807381
+AV_full,a_mid_gap,0.279558,0.197583
+AV_full,v_mid_gap,0.467771,0.411586
+AV_full,gate_out_gap,0.759915,0.732875
+AV_full,block2_gap,0.943173,0.942506
+AV_full,penult,0.943173,0.942506

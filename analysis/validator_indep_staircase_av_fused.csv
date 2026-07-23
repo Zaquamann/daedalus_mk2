@@ -1,0 +1,5 @@
+site,acc_5fold_mine,acc_5fold_report,delta
+a_mid_gap,0.278604,0.279558,-0.000954
+v_mid_gap,0.468153,0.467771,+0.000382
+gate_out_gap,0.759533,0.759915,-0.000382
+block2_gap,0.943363,0.943173,+0.000190

@@ -1,0 +1,31 @@
+axis,condition,recurrent_acc,ff_matched_acc,ff_canonical_acc,rec_minus_ffmatched_pp,ffmatched_minus_ffcanonical_pp,rec_minus_ffcanonical_pp,ff_canonical_anchor,ff_canonical_anchor_delta_pp,note
+clean_val,clean,0.948513,0.958238,0.956712,-0.9725,+0.1526,-0.8200,0.956712,+0.0000,
+rawnoise_sweep,0.0000,0.948513,0.958238,0.956712,-0.9725,+0.1526,-0.8200,0.956712,+0.0000,saliency/robustness — read per-model vs that model's clean_val row
+rawnoise_sweep,0.0010,0.948322,0.958238,0.956712,-0.9916,+0.1526,-0.8391,0.956712,+0.0000,saliency/robustness — read per-model vs that model's clean_val row
+rawnoise_sweep,0.0050,0.942792,0.945271,0.948894,-0.2479,-0.3623,-0.6102,0.948894,-0.0000,saliency/robustness — read per-model vs that model's clean_val row
+rawnoise_sweep,0.0100,0.928108,0.901602,0.927536,+2.6506,-2.5934,+0.0572,0.927536,+0.0000,saliency/robustness — read per-model vs that model's clean_val row
+rawnoise_sweep,0.0200,0.884249,0.754577,0.851831,+12.9672,-9.7254,+3.2418,0.851831,-0.0000,saliency/robustness — read per-model vs that model's clean_val row
+rawnoise_sweep,0.0500,0.717010,0.439169,0.609268,+27.7841,-17.0099,+10.7742,0.609268,-0.0000,saliency/robustness — read per-model vs that model's clean_val row
+rawnoise_sweep,0.1000,0.509535,0.267544,0.376049,+24.1991,-10.8505,+13.3486,0.376049,-0.0000,saliency/robustness — read per-model vs that model's clean_val row
+rawnoise_sweep,0.2000,0.347826,0.178299,0.217201,+16.9527,-3.8902,+13.0625,0.217201,-0.0000,saliency/robustness — read per-model vs that model's clean_val row
+rawnoise_sweep,0.5000,0.259725,0.119565,0.120519,+14.0160,-0.0953,+13.9207,0.120519,-0.0000,saliency/robustness — read per-model vs that model's clean_val row
+E11_temporal,delta_ms=-200,0.329519,0.155225,0.152555,+17.4294,+0.2670,+17.6964,0.152555,+0.0000,congruence — read per-model vs that model's delta_ms=+0 row
+E11_temporal,delta_ms=-100,0.719298,0.460526,0.475400,+25.8772,-1.4874,+24.3898,0.475400,+0.0000,congruence — read per-model vs that model's delta_ms=+0 row
+E11_temporal,delta_ms=-60,0.872616,0.749428,0.741228,+12.3188,+0.8200,+13.1388,0.741228,+0.0000,congruence — read per-model vs that model's delta_ms=+0 row
+E11_temporal,delta_ms=-40,0.921243,0.890351,0.849352,+3.0892,+4.0999,+7.1892,0.849352,-0.0000,congruence — read per-model vs that model's delta_ms=+0 row
+E11_temporal,delta_ms=-20,0.944699,0.944699,0.939550,+0.0000,+0.5149,+0.5149,0.939550,-0.0000,congruence — read per-model vs that model's delta_ms=+0 row
+E11_temporal,delta_ms=+0,0.948513,0.958238,0.956712,-0.9725,+0.1526,-0.8200,0.956712,+0.0000,congruence — read per-model vs that model's delta_ms=+0 row
+E11_temporal,delta_ms=+20,0.940122,0.949847,0.946796,-0.9725,+0.3051,-0.6674,0.946796,+0.0000,congruence — read per-model vs that model's delta_ms=+0 row
+E11_temporal,delta_ms=+40,0.917429,0.918002,0.907323,-0.0572,+1.0679,+1.0107,0.907132,+0.0191,congruence — read per-model vs that model's delta_ms=+0 row
+E11_temporal,delta_ms=+60,0.873760,0.855835,0.838101,+1.7925,+1.7735,+3.5660,0.838101,-0.0000,congruence — read per-model vs that model's delta_ms=+0 row
+E11_temporal,delta_ms=+100,0.766972,0.673913,0.597254,+9.3059,+7.6659,+16.9718,0.597063,+0.0191,congruence — read per-model vs that model's delta_ms=+0 row
+E11_temporal,delta_ms=+200,0.436117,0.301297,0.193555,+13.4821,+10.7742,+24.2563,0.193745,-0.0190,congruence — read per-model vs that model's delta_ms=+0 row
+D5_temporal_saliency,"win=[0,10)",0.762014,0.789092,0.765637,-2.7079,+2.3455,-0.3623,0.765446,+0.0191,saliency/robustness — read per-model vs that model's clean_val row
+D5_temporal_saliency,"win=[5,15)",0.534325,0.561404,0.539855,-2.7079,+2.1548,-0.5530,0.539664,+0.0191,saliency/robustness — read per-model vs that model's clean_val row
+D5_temporal_saliency,"win=[10,20)",0.355263,0.371091,0.346491,-1.5828,+2.4600,+0.8772,0.346491,+0.0000,saliency/robustness — read per-model vs that model's clean_val row
+D5_temporal_saliency,"win=[15,25)",0.242944,0.252288,0.232265,-0.9344,+2.0023,+1.0679,0.232265,+0.0000,saliency/robustness — read per-model vs that model's clean_val row
+D5_temporal_saliency,"win=[20,30)",0.222349,0.241037,0.213768,-1.8688,+2.7269,+0.8581,0.213768,+0.0000,saliency/robustness — read per-model vs that model's clean_val row
+D5_temporal_saliency,"win=[25,35)",0.318268,0.316934,0.281655,+0.1335,+3.5278,+3.6613,0.281655,+0.0000,saliency/robustness — read per-model vs that model's clean_val row
+D5_temporal_saliency,"win=[30,40)",0.502670,0.475019,0.451754,+2.7651,+2.3265,+5.0915,0.451564,+0.0190,saliency/robustness — read per-model vs that model's clean_val row
+D5_temporal_saliency,"win=[35,45)",0.705568,0.679443,0.663425,+2.6125,+1.6018,+4.2143,0.663425,-0.0000,saliency/robustness — read per-model vs that model's clean_val row
+D5_temporal_saliency,"win=[40,50)",0.863272,0.872235,0.859649,-0.8963,+1.2586,+0.3623,0.859649,+0.0000,saliency/robustness — read per-model vs that model's clean_val row

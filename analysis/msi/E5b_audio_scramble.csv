@@ -1,0 +1,7 @@
+mode,AV_acc,A_acc
+none,0.956712,0.926964
+mel_time_shuffle,0.049199,0.023837
+mel_block_shuffle,0.124523,0.135965
+phase_scramble,0.247330,0.060259
+ref_clean_baseline,0.956712,0.926964
+ref_additive_noise_sigma0.05,0.609268,0.134249

@@ -1,0 +1,2 @@
+condition,sigma_a,sigma_v,A_acc,V_acc,AV_acc,pooled_avg,pooled_bayes,AV_minus_pooled
+matched_75,0.008487,0.212586,0.758581,0.766590,0.918383,0.875858,0.917811,0.000572

@@ -1,0 +1,31 @@
+section,feature,value,note
+rf_imp_baseline,viseme_bilabial_bpm,0.042348,no A-baseline covariate
+rf_imp_baseline,viseme_glottal_h,0.023574,no A-baseline covariate
+rf_imp_baseline,viseme_labiodental_fv,0.033613,no A-baseline covariate
+rf_imp_baseline,viseme_labiovelar_w,0.022680,no A-baseline covariate
+rf_imp_baseline,viseme_lingual,0.061253,no A-baseline covariate
+rf_imp_baseline,viseme_other,0.037133,no A-baseline covariate
+rf_imp_baseline,viseme_vowel_initial,0.020960,no A-baseline covariate
+rf_imp_baseline,word_len,0.507734,no A-baseline covariate
+rf_imp_baseline,n_vowels,0.231139,no A-baseline covariate
+rf_imp_baseline,vowel_initial,0.019566,no A-baseline covariate
+rf_imp_with_Abaseline,viseme_bilabial_bpm,0.009833,LOO A-baseline added
+rf_imp_with_Abaseline,viseme_glottal_h,0.003767,LOO A-baseline added
+rf_imp_with_Abaseline,viseme_labiodental_fv,0.012030,LOO A-baseline added
+rf_imp_with_Abaseline,viseme_labiovelar_w,0.007625,LOO A-baseline added
+rf_imp_with_Abaseline,viseme_lingual,0.012283,LOO A-baseline added
+rf_imp_with_Abaseline,viseme_other,0.008123,LOO A-baseline added
+rf_imp_with_Abaseline,viseme_vowel_initial,0.004847,LOO A-baseline added
+rf_imp_with_Abaseline,word_len,0.188481,LOO A-baseline added
+rf_imp_with_Abaseline,n_vowels,0.078586,LOO A-baseline added
+rf_imp_with_Abaseline,vowel_initial,0.006563,LOO A-baseline added
+rf_imp_with_Abaseline,A_baseline_loo,0.667862,LOO A-baseline added
+residualize,corr_word_len_Abaseline,0.145054,Pearson
+residualize,raw_corr_word_len_deltaflip,0.006360,Pearson
+residualize,partial_corr_word_len_deltaflip_given_Abaseline,0.026627,word_len & delta_flip both residualized on A-baseline
+logistic_no_Abaseline,word_len,-0.051116,"std coef, rescue=delta_flip==+1"
+logistic_no_Abaseline,n_vowels,-0.038630,std coef
+logistic_with_Abaseline,word_len,0.077456,std coef
+logistic_with_Abaseline,n_vowels,-0.115198,std coef
+logistic_with_Abaseline,A_baseline,-0.643118,std coef
+verdict,word_len_survives_headroom_control,False,word_len importance >= A_baseline importance after covariate

@@ -1,0 +1,15 @@
+quantity,key,mine,anchor
+MEI_frac_super_additive,a_mid,0.000000,0.0
+MEI_frac_super_additive,v_mid,0.000000,
+MEI_frac_super_additive,gate,0.093750,
+MEI_frac_super_additive,block2,0.265625,0.2656
+MEI_frac_super_additive,penult,0.265625,
+E9_gate_mean_abs,AV_full,0.274524,0.2745
+E9_gate_mean_abs,audio_only,0.537668,0.5377
+gate_alpha,param,5.202385,5.202385
+alpha0_collapse,AV_acc,0.014874,0.0149
+block2_lesion_max,ch78,0.2479,0.2479
+v_modulation,n_R2_gt_0.30,107,107
+race_bound,n_violations,68,68
+race_bound,frac_violations,0.012967,0.012967
+q3_audio_zero_word_probe,AV,0.674867,0.673913 (rel +0.142%)

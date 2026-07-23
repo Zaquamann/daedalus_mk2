@@ -1,0 +1,30 @@
+Phonetic clustering analysis — model val_acc summary
+========================================================
+    A_clean: 92.6964%
+    A_noisy: 92.9443%
+   AV_clean: 95.6712%
+   AV_noisy: 95.1754%
+
+Viseme silhouette (higher = tighter visemic clusters):
+    A_clean: -0.0178
+    A_noisy: -0.0162
+   AV_clean: -0.0076
+   AV_noisy: -0.0088
+
+Viseme linear probe (test acc):
+    A_clean: acc=0.8215, balanced=0.7693
+    A_noisy: acc=0.8245, balanced=0.7842
+   AV_clean: acc=0.9118, balanced=0.8633
+   AV_noisy: acc=0.9128, balanced=0.8663
+
+Top 10 confusion rescues (A_clean → AV_clean):
+             TEN ↔ TURN          : 6 → 1  (rescued 5)
+           INBOX ↔ OUTBOX        : 5 → 0  (rescued 5)
+       SEVENTEEN ↔ SEVENTY       : 6 → 2  (rescued 4)
+            DOWN ↔ GO            : 4 → 0  (rescued 4)
+             TEN ↔ TIME          : 4 → 0  (rescued 4)
+           FORTY ↔ THIRTY        : 4 → 0  (rescued 4)
+           START ↔ STOP          : 4 → 0  (rescued 4)
+          MONDAY ↔ NINETY        : 4 → 0  (rescued 4)
+            SEND ↔ SOUND         : 4 → 0  (rescued 4)
+        NINETEEN ↔ NINETY        : 6 → 3  (rescued 3)

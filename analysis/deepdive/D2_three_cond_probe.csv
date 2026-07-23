@@ -1,0 +1,6 @@
+condition,acc,balanced_acc
+AV_full,0.920081,0.899533
+AV_v_zero,0.677688,0.532244
+AV_audio_zero,0.812576,0.730749
+A_only,0.832454,0.804636
+V_fair,0.873631,0.813957

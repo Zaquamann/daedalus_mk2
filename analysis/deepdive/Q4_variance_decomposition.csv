@@ -1,0 +1,15 @@
+section,row,value,unit,note
+accuracy,AV_full,0.956712,frac,clean AV (anchor 0.956712)
+accuracy,AV_audio_zero,0.444699,frac,audio input zeroed
+accuracy,AV_video_zero,0.008391,frac,video zeroed = visual gate ablated
+accuracy,A_only,0.926964,frac,anchor 0.926964
+accuracy,V_fair,0.864989,frac,anchor 0.864989
+accuracy,ensemble_50_50,0.950610,frac,softmax-avg A+V (anchor 0.950610)
+decomp_gain,total_AV_minus_A,2.9748,pp,clean AV - A
+decomp_gain,ensemble_attainable,2.3646,pp,ensemble_50_50 - A
+decomp_gain,learned_fusion_residual,0.6102,pp,AV - ensemble_50_50
+decomp_gain,sum_check,2.9748,pp,attainable + residual
+gate_path,n_rescued,261,count,A-wrong & AV-right
+gate_path,n_regressed,105,count,A-right & AV-wrong
+gate_path,frac_visual_gate_driven,0.992337,frac,rescues lost when Wv(v_mid) ablated (=video_zero)
+gate_path,frac_audio_path_survives,0.007663,frac,rescues surviving visual-gate ablation

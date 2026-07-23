@@ -1,0 +1,13 @@
+variant,condition,layer,acc_5fold,bal_acc_5fold,report_acc,delta_pp
+D5,A_only,block1_gap,0.425439,0.358236,0.424676,+0.076pp
+D5,A_only,penult,0.900647,0.896714,0.898741,+0.191pp
+D5,AV_clean_full,a_mid_gap,0.278604,0.196834,0.279367,-0.076pp
+D5,AV_clean_full,gate_out_gap,0.759533,0.732387,0.760678,-0.114pp
+D5,AV_clean_full,penult,0.943363,0.942586,0.943744,-0.038pp
+D5,AV_clean_v_zero,gate_out_gap,0.346681,0.272144,0.346491,+0.019pp
+D5,AV_clean_v_zero,penult,0.512400,0.462873,0.512209,+0.019pp
+D4,AV_clean_v_zero,penult,0.529179,0.481472,0.512209,+1.697pp
+_struct,cliff_penult,,0.430963,,0.431535,
+_adjudication,vzero_penult_D5,,0.512400,,0.512209,
+_adjudication,vzero_penult_D4,,0.529179,,0.526320,
+_adjudication,verdict,,BENIGN: anchor 0.526320 is the D4 no-scaler variant; -1.41pp is the scaler-vs-no-scaler probe difference on identical activations,,,

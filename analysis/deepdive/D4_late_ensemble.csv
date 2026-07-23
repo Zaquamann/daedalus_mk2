@@ -1,0 +1,9 @@
+regime,acc
+A_only_alone,0.926964
+V_fair_alone,0.864989
+AV_fused,0.956712
+ensemble_50_50,0.950610
+ensemble_25_75,0.899123
+ensemble_50_50,0.950610
+ensemble_75_25,0.946606
+AV_minus_5050_pp,0.6102

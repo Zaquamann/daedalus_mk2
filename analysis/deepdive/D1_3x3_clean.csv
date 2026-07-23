@@ -1,0 +1,4 @@
+trained_model,input_A_only,input_V_only,input_AV
+A_trained,0.926964,n/a (no V input),n/a (no V input)
+V_trained,n/a (no A input),0.864989,n/a (no A input)
+AV_trained,0.008391,0.444699,0.956712

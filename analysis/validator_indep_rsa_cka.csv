@@ -1,0 +1,6 @@
+metric,key,mine,report,delta
+RSA_spearman,AV_vs_A,0.786231,0.786232,-0.000001
+RSA_spearman,AV_vs_V,0.742155,0.742174,-0.000019
+RSA_spearman,A_vs_V,0.467082,0.467092,-0.000010
+linear_CKA,A.block1_gap~AV.a_mid_gap,0.976481,0.976481,-0.000000
+linear_CKA,A.penult~AV.penult,0.751424,0.751425,-0.000001

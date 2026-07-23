@@ -1,0 +1,7 @@
+variant,flavour,condition,mean_abs_g,mean_abs_alpha_g,frac_g_gt_half,mean_abs_residual,frac_residual_pos,mean_residual_l2_per_sample,alpha
+AV_fused,mid_mult,AV_full,0.192796,1.002997,0.157046,0.274521,0.595690,263.371800,5.202385
+AV_fused,mid_mult,audio_only,0.325930,1.695614,0.264264,0.537668,0.595690,367.827415,5.202385
+AV_fused,mid_mult,video_only,0.165823,0.862674,0.121427,0.252998,0.424664,266.068383,5.202385
+D3_10_add,mid_add,AV_full,0.460974,0.605263,0.444513,0.605263,1.000000,266.171379,1.313011
+D3_10_add,mid_add,audio_only,0.464513,0.609911,0.403718,0.609911,1.000000,237.638220,1.313011
+D3_10_add,mid_add,video_only,0.468384,0.614993,0.459210,0.614993,1.000000,267.460040,1.313011

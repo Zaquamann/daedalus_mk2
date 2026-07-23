@@ -1,0 +1,13 @@
+############## venv_skl18 (sklearn 1.8.0) ##############
+ENV: python 3.13.7 | sklearn 1.8.0 | numpy 2.3.5 | scipy 1.17.0
+X sha256=f70f43ced3f15bd1 shape=(5244, 64) dtype=float32 | y sha256=99e071c661dedac8
+run#1 acc=0.426774 bal=0.359377 perfold=['0.415634', '0.440419', '0.451859', '0.396568', '0.429389']
+run#2 acc=0.426774 bal=0.359377  (run-to-run d_acc=+0.00e+00)
+ANCHOR=0.426774  POD(1.9.0)=0.424676  | this-env acc=0.426774 d_anchor=-0.000000 d_pod=+0.002098
+
+############## venv_skl19 (sklearn 1.9.0) ##############
+ENV: python 3.13.7 | sklearn 1.9.0 | numpy 2.3.5 | scipy 1.17.0
+X sha256=f70f43ced3f15bd1 shape=(5244, 64) dtype=float32 | y sha256=99e071c661dedac8
+run#1 acc=0.425248 bal=0.357916 perfold=['0.411821', '0.439466', '0.452812', '0.394662', '0.427481']
+run#2 acc=0.425248 bal=0.357916  (run-to-run d_acc=+0.00e+00)
+ANCHOR=0.426774  POD(1.9.0)=0.424676  | this-env acc=0.425248 d_anchor=-0.001526 d_pod=+0.000572

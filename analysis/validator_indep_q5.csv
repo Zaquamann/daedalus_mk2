@@ -1,0 +1,13 @@
+section,feature,mine,report,delta
+rf_imp_baseline,word_len,0.507734,0.507734,+0.000000
+rf_imp_baseline,n_vowels,0.231139,0.231139,-0.000000
+rf_imp_with_Abaseline,word_len,0.188481,0.188481,+0.000000
+rf_imp_with_Abaseline,A_baseline_loo,0.667862,0.667862,-0.000000
+rf_imp_with_Abaseline,n_vowels,0.078586,0.078586,-0.000000
+residualize,corr_word_len_Abaseline,0.145054,0.145054,-0.000000
+residualize,raw_corr_word_len_deltaflip,0.006360,0.006360,-0.000000
+residualize,partial_corr_word_len_deltaflip_given_Abaseline,0.026627,0.026627,+0.000000
+logistic_no_Abaseline,word_len,-0.051116,-0.051116,-0.000000
+logistic_with_Abaseline,word_len,0.077456,0.077456,+0.000000
+logistic_with_Abaseline,A_baseline,-0.643118,-0.643118,-0.000000
+verdict,word_len_survives_headroom_control,False,False,

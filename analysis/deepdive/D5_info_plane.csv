@@ -1,0 +1,22 @@
+site,estimator,I_layer_label_nats,note
+_reference,H(Y),5.028045,empirical label entropy (nats)
+a_mid_gap,infonce_mlp,1.840675,"H(Y)-heldout_CE, MLP critic (CE=3.1874)"
+a_mid_gap,infonce_linear,2.101221,"H(Y)-heldout_CE, linear critic (CE=2.9268)"
+a_mid_gap,ksg,1.354729,"Ross k-NN joint MI, PCA-16, k=3"
+a_mid_gap,binned_pca8_OLD,5.028044,degenerate estimator being replaced
+v_mid_gap,infonce_mlp,2.779547,"H(Y)-heldout_CE, MLP critic (CE=2.2485)"
+v_mid_gap,infonce_linear,3.028328,"H(Y)-heldout_CE, linear critic (CE=1.9997)"
+v_mid_gap,ksg,2.016282,"Ross k-NN joint MI, PCA-16, k=3"
+v_mid_gap,binned_pca8_OLD,5.028044,degenerate estimator being replaced
+gate_out_gap,infonce_mlp,4.002261,"H(Y)-heldout_CE, MLP critic (CE=1.0258)"
+gate_out_gap,infonce_linear,4.109006,"H(Y)-heldout_CE, linear critic (CE=0.9190)"
+gate_out_gap,ksg,3.362625,"Ross k-NN joint MI, PCA-16, k=3"
+gate_out_gap,binned_pca8_OLD,5.028044,degenerate estimator being replaced
+block2_gap,infonce_mlp,4.761737,"H(Y)-heldout_CE, MLP critic (CE=0.2663)"
+block2_gap,infonce_linear,4.807701,"H(Y)-heldout_CE, linear critic (CE=0.2203)"
+block2_gap,ksg,4.809244,"Ross k-NN joint MI, PCA-16, k=3"
+block2_gap,binned_pca8_OLD,5.028044,degenerate estimator being replaced
+penult,infonce_mlp,4.761737,"H(Y)-heldout_CE, MLP critic (CE=0.2663)"
+penult,infonce_linear,4.807701,"H(Y)-heldout_CE, linear critic (CE=0.2203)"
+penult,ksg,4.809244,"Ross k-NN joint MI, PCA-16, k=3"
+penult,binned_pca8_OLD,5.028044,degenerate estimator being replaced

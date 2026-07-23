@@ -1,0 +1,15 @@
+probe,condition,acc_mine,acc_report,rel_delta
+D5_word,A_only,0.900647,0.902745,-0.002324
+D5_onset,A_only,0.817163,0.817640,-0.000583
+D5_viseme,A_only,0.832049,0.831237,+0.000976
+D5_word,V_fair,0.821509,0.821509,+0.000000
+D5_onset,V_fair,0.783790,0.783552,+0.000304
+D5_viseme,V_fair,0.872008,0.872008,+0.000000
+D5_word,AV_full,0.943363,0.943173,+0.000202
+D5_onset,AV_full,0.907986,0.908224,-0.000262
+D5_viseme,AV_full,0.918458,0.918256,+0.000220
+D2_viseme,AV_full,0.920690,0.920081,+0.000662
+D2_viseme,AV_v_zero,0.679108,0.677688,+0.002095
+D2_viseme,AV_audio_zero,0.812170,0.812576,-0.000499
+D2_viseme,A_only,0.832860,0.832454,+0.000488
+D2_viseme,V_fair,0.874037,0.873631,+0.000464

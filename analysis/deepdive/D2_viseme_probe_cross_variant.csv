@@ -1,0 +1,5 @@
+variant,flavour,n_samples,n_viseme_classes,penult_dim,acc_mean,acc_std,bal_acc_mean,bal_acc_std
+AV_fused,mid_mult,4930,6,128,0.918256,0.002613,0.895675,0.013239
+D3_2_late,late,4930,6,192,0.896552,0.002566,0.868534,0.004228
+D3_10_add,mid_add,4930,6,128,0.923935,0.007143,0.903016,0.007732
+D3_1_early,early,4930,6,192,0.833874,0.011765,0.811166,0.028796
